@@ -289,6 +289,7 @@
     <Compile Include="Assets\Scripts\Spellbook.cs" />
     <Compile Include="Assets\Scripts\Spells\Flamethrower.cs" />
     <Compile Include="Assets\Scripts\Sporkle.cs" />
+    <Compile Include="Assets\Scripts\Telekinesis.cs" />
     <Compile Include="Assets\Scripts\TriggerInvoke.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

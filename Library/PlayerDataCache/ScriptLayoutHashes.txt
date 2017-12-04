@@ -134,6 +134,8 @@ ff05dcdf90651c3d98a9cad3df5e471e UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 6af7378a45ad6da4992a71ef50ddc2eb UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 af723155c251fcfa0e66530a75f3ea4c UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.HideOnHandFocusLost
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RecieveInvoke
+203162ef87d00d7622d10b537aef90a7 Assembly-CSharp.dll:.TriggerInvoke
 30b87a0bd774d61e53c1a0291b6ff61d Assembly-CSharp.dll:.SteamVR_IK
 bd8789ee6c1205b3ed247da8815d0fa9 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.VRIK
 f43097df71fc81e44712a5fa7ad70da5 Assembly-CSharp-firstpass.dll:RootMotion.Demos.TouchWalls
@@ -214,6 +216,7 @@ f1d448b52d4d52f3812b9ceeaa39a668 Assembly-CSharp-firstpass.dll:RootMotion.FinalI
 1235609fcbaeb18ef7118947f508f7e0 Assembly-CSharp.dll:Valve.VR.InteractionSystem.LinearMapping
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.NVRCollisionSoundProviderUnity
 baaddee0117ace0de0a577a4157ac626 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.RotationLimitAngle
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SmoothMagicFollow
 37d47bf002e5e412d4b40279cd24c8b2 Assembly-CSharp.dll:.SteamVR_TestThrow
 a74445ae678117ee298b8d2dea4e99fc Assembly-CSharp-firstpass.dll:RootMotion.Demos.FPSAiming
 44001419371558ec62145a90bcdb2fc8 Assembly-CSharp.dll:Valve.VR.InteractionSystem.Longbow
@@ -225,6 +228,7 @@ a74445ae678117ee298b8d2dea4e99fc Assembly-CSharp-firstpass.dll:RootMotion.Demos.
 76119242f799591c84bce8d3be04eee2 Assembly-CSharp-firstpass.dll:RootMotion.TriggerEventBroadcaster
 6462129014261f03fe96775d385612e5 Assembly-CSharp-firstpass.dll:RootMotion.Demos.CharacterAnimationThirdPersonIK
 34056abb3879308e824f3a74faa7b72f Assembly-CSharp.dll:.SteamVR_TrackedObject
+3ee23499ae7afee011467fb534527510 Assembly-CSharp.dll:.LineRender
 9ed790b49d83589f43d338fd4f621a37 Assembly-CSharp.dll:Valve.VR.InteractionSystem.SoundBowClick
 6edd392c314cd772c5d91102df13d4d7 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.FABRIKRoot
 ddf7bcc177bb76ee48477c692dd10cb3 Assembly-CSharp.dll:.SteamVR_TrackedController
@@ -256,6 +260,7 @@ cf2261dafc3a0741e074c269662279b6 Assembly-CSharp-firstpass.dll:RootMotion.Demos.
 09b475f1c96790dec792960b01128f1e Assembly-CSharp-firstpass.dll:RootMotion.Demos.BipedIKvsAnimatorIK
 108ae06975a2b39dbe8dddd0a7f55b46 Assembly-CSharp.dll:.SteamVR_Skybox
 2320b64998955a125b889fc5d9cc3435 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.CCDIK
+e7b3a54e52cf0c387e3c3e225c1e7110 Assembly-CSharp.dll:.Spellbook
 c0e137b30c4aecea490497a8e042fe69 Assembly-CSharp.dll:NewtonVR.NVRLever
 da96ebf5bdcbcff8a7d89cdc77940ac1 Assembly-CSharp.dll:NewtonVR.NVRAttachPoint
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.NVRCollisionSoundProviderFMOD
@@ -274,6 +279,7 @@ ca655b4733916521a001c1d3a6ebac12 Assembly-CSharp-firstpass.dll:RootMotion.Demos.
 48f0d91bd18c9585d2e637849fd3e625 Assembly-CSharp-firstpass.dll:RootMotion.Demos.OffsetEffector
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:Valve.VR.InteractionSystem.DestroyOnDetachedFromHand
 8dc81af1cb0a5d8390a5321610904346 Assembly-CSharp-firstpass.dll:RootMotion.DemoGUIMessage
+34860bb01946c8f4767ccdff453d550c Assembly-CSharp.dll:.Telekinesis
 6aee81c366f0edc8d360a8b7c59e7752 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.LookAtIK
 208e6f71c84dca86f4aa1dd45de497fc Assembly-CSharp-firstpass.dll:RootMotion.Demos.TerrainOffset
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -285,6 +291,7 @@ d5dc25f484cfcf35e27840391ebb99e8 Assembly-CSharp-firstpass.dll:RootMotion.Demos.
 19fc85c5cf0012f1ecc0a52526c2f4b3 Assembly-CSharp.dll:Valve.VR.InteractionSystem.ArrowHand
 25f45f1cfeb8128fe06af686d4dd8c9e Assembly-CSharp.dll:NewtonVR.NVRPlayer
 e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LookAtCamera
 916f439ffe6798ebcad79834720bf168 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.RotationLimitSpline
 acca8d2985f2c7e9482325a2a083cea6 Assembly-CSharp.dll:.SteamVR_PlayArea
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SteamVR_SphericalProjection
@@ -296,6 +303,7 @@ e0f7ffd5d5c2abe4b2e16569a21163da UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 5331f456bbd3750f02509a54a8a1348b Assembly-CSharp.dll:Valve.VR.InteractionSystem.Balloon
 a0811108e70d2b55af8d878f58db03bf Assembly-CSharp-firstpass.dll:RootMotion.Demos.UserControlInteractions
 20bbf7d45aae1452fbb9810d742c5ab0 Assembly-CSharp.dll:Valve.VR.InteractionSystem.BalloonSpawner
+a2d9ac59a343d50e9a48721078ad0be8 Assembly-CSharp.dll:.Flamethrower
 6ce037f00a149b01c25c665fb071866a Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.BipedIK
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.Example.NVRExampleButtonResetScene
 693b896d2e0cecfc57d196fd98284c68 Assembly-CSharp-firstpass.dll:RootMotion.Demos.TwoHandedProp
@@ -330,6 +338,7 @@ ab38f176bfc0dbb7ce3566df8d09a367 Assembly-CSharp.dll:Valve.VR.InteractionSystem.
 4f2be6b848b740a10a0f7bfc77f30a74 Assembly-CSharp-firstpass.dll:RootMotion.Demos.TransferMotion
 d52aee9c83b781e1b0ef02aef63ecb20 Assembly-CSharp.dll:Valve.VR.InteractionSystem.IgnoreHovering
 f56f80a020098735db82983eddf96e93 Assembly-CSharp-firstpass.dll:RootMotion.CameraController
+0aeb19ea0f8ba48ed0b783e4de74ec7d Assembly-CSharp.dll:.Sporkle
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.NVROculusInputDevice
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SteamVR_UpdatePoses
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.NVRSteamVRInputDevice
@@ -344,6 +353,7 @@ b15ef36ef52f0c30a3fd83255742fc50 Assembly-CSharp-firstpass.dll:RootMotion.FinalI
 2edf6f1eaf635ba5943af0f8d13711fe Assembly-CSharp-firstpass.dll:RootMotion.Demos.HitReactionTrigger
 2c5a3b009ee570a3164e73d6a8cd4890 Assembly-CSharp.dll:Valve.VR.InteractionSystem.Arrow
 d01fba27b3d890a4c98aedfdd86bcac4 Assembly-CSharp-firstpass.dll:RootMotion.Demos.RecoilTest
+6320a92ef6c8a6ef47ecbe5004c3921d Assembly-CSharp.dll:.MCP
 e6ff02cc730612ce1d6b592b86f6b561 Assembly-CSharp.dll:Valve.VR.InteractionSystem.FallbackCameraController
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:NewtonVR.NVRHead
 023b4dae89014f705c73648613501ced Assembly-CSharp.dll:Valve.VR.InteractionSystem.BalloonHapticBump
@@ -367,12 +377,3 @@ f3fd3fb52070d6ee5266d0c25cb1b49f Assembly-CSharp.dll:Valve.VR.InteractionSystem.
 80a72da44707f35c0316dd6826028eb0 Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.GrounderFBBIK
 812d90d4eecee79489301df0bc9c094f Assembly-CSharp-firstpass.dll:RootMotion.Demos.Turret
 55a9d4f827d2777e39447c0928a3885b Assembly-CSharp-firstpass.dll:RootMotion.FinalIK.ShoulderRotator
-203162ef87d00d7622d10b537aef90a7 Assembly-CSharp.dll:.TriggerInvoke
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.RecieveInvoke
-e7b3a54e52cf0c387e3c3e225c1e7110 Assembly-CSharp.dll:.Spellbook
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.SmoothMagicFollow
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.LookAtCamera
-0aeb19ea0f8ba48ed0b783e4de74ec7d Assembly-CSharp.dll:.Sporkle
-3ee23499ae7afee011467fb534527510 Assembly-CSharp.dll:.LineRender
-6320a92ef6c8a6ef47ecbe5004c3921d Assembly-CSharp.dll:.MCP
-a2d9ac59a343d50e9a48721078ad0be8 Assembly-CSharp.dll:.Flamethrower
