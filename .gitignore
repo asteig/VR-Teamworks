@@ -12,3 +12,8 @@ sysinfo.txt
 /Assets/AssetStoreTools*
 *.apk
 *.unitypackage
+
+# =============== #
+# Dev             #
+# =============== #
+/Assets/GoogleV*
