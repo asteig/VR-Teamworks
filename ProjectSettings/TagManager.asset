@@ -6,7 +6,11 @@ TagManager:
   tags:
   - PlayerHand
   - Finger
+<<<<<<< HEAD
   - Handle
+=======
+  - Movable
+>>>>>>> d6c00334744a8cc30bb12412f6b003891ed4081f
   layers:
   - Default
   - TransparentFX
