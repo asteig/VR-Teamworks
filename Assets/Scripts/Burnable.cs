@@ -16,6 +16,6 @@ public class Burnable : MonoBehaviour {
 	}
 	public void Burn() {
 		burnParticle.Play();
-		Destroy(transform.parent, burnTime);
+		Destroy(gameObject, burnTime);
 	}
 }

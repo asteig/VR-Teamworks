@@ -279,6 +279,7 @@
     <Compile Include="Assets\NewtonVR\Oculus\NVROculusIntegration.cs" />
     <Compile Include="Assets\NewtonVR\SteamVR\NVRSteamVRInputDevice.cs" />
     <Compile Include="Assets\NewtonVR\SteamVR\NVRSteamVRIntegration.cs" />
+    <Compile Include="Assets\Scripts\AdjustedFollow.cs" />
     <Compile Include="Assets\Scripts\Burnable.cs" />
     <Compile Include="Assets\Scripts\Hand.cs" />
     <Compile Include="Assets\Scripts\HandModel.cs" />
@@ -297,6 +298,7 @@
     <Compile Include="Assets\Scripts\spin.cs" />
     <Compile Include="Assets\Scripts\Sporkle.cs" />
     <Compile Include="Assets\Scripts\TriggerInvoke.cs" />
+    <Compile Include="Assets\Scripts\WoodGate.cs" />
     <Compile Include="Assets\Starbox\StarboxDemo\StarboxDemoCamControl.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
