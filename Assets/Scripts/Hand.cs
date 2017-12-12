@@ -54,7 +54,7 @@ public class Hand : MonoBehaviour {
 		if ((SteamVR_Controller.Input (myIndex).GetPressDown (SteamVR_Controller.ButtonMask.Trigger) || Input.GetKeyDown(KeyCode.P))) {
 			Snap ();
 		}
-		if (SteamVR_Controller.Input(myIndex).GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && !left) {
+		if (SteamVR_Controller.Input(myIndex).GetPressUp(SteamVR_Controller.ButtonMask.Trigger) && !left && MCP.mcp.spellbook.spellLinks != "") {
 			MCP.mcp.CastSpell();
 		}
 		if (SteamVR_Controller.Input(myIndex).GetPress(SteamVR_Controller.ButtonMask.Grip) && !left) {

@@ -28,6 +28,8 @@ public class Flamethrower : NetworkBehaviour {
 
 	}
 	void OnParticleCollision (GameObject other) {
-		// do something
+		if(other.gameObject.tag == "Burnable") {
+			other.gameObject.GetComponent<Burnable>().Burn();
+		}
 	}
 }

@@ -4,13 +4,15 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - FxTemporaire
   - PlayerHand
   - Finger
-<<<<<<< HEAD
+  - projectile
+  - TeleportIgnore
   - Handle
-=======
   - Movable
->>>>>>> d6c00334744a8cc30bb12412f6b003891ed4081f
+  - Burnable
+  - Floor
   layers:
   - Default
   - TransparentFX

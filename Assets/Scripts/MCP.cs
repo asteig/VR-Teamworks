@@ -13,6 +13,7 @@ public class MCP : MonoBehaviour {
 	//spell objects
 	public GameObject flamethrower;
 	public GameObject telekinesis;
+	public GameObject teleport;
 	//spell objects
 	void Awake () {
 		mcp = this;
@@ -22,6 +23,8 @@ public class MCP : MonoBehaviour {
 	}
 	public void EndSpell() {
 		flamethrower.SetActive(false);
+		telekinesis.SetActive(false);
+		teleport.SetActive(false);
 
 	}
 	public void CastSpell() {
@@ -48,6 +51,9 @@ public class MCP : MonoBehaviour {
 		}
 		if (which == "6325") {
 			flamethrower.SetActive(true);
+		}
+		if (which == "513") {
+			teleport.SetActive(true);
 		}
 	}
 }
