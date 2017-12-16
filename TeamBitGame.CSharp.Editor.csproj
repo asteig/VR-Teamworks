@@ -279,13 +279,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="TeamBitGame.CSharp.csproj">
-      <Project>{13E15347-2756-E8C8-920E-C632B057FA1E}</Project>
-      <Name>TeamBitGame.CSharp</Name>
-    </ProjectReference>
     <ProjectReference Include="TeamBitGame.CSharp.Plugins.csproj">
       <Project>{69602599-284A-E217-EAAD-6EC656774065}</Project>
       <Name>TeamBitGame.CSharp.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="TeamBitGame.CSharp.csproj">
+      <Project>{13E15347-2756-E8C8-920E-C632B057FA1E}</Project>
+      <Name>TeamBitGame.CSharp</Name>
     </ProjectReference>
     <ProjectReference Include="TeamBitGame.CSharp.Editor.Plugins.csproj">
       <Project>{76115795-8EB6-86C3-8E1A-3C50F1B610E2}</Project>
