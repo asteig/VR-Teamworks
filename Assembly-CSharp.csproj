@@ -105,6 +105,9 @@
      <Compile Include="Assets\NewtonVR\Oculus\NVROculusIntegration.cs" />
      <Compile Include="Assets\NewtonVR\SteamVR\NVRSteamVRInputDevice.cs" />
      <Compile Include="Assets\NewtonVR\SteamVR\NVRSteamVRIntegration.cs" />
+     <Compile Include="Assets\Prefabs\FPSPlayer\CursorLock.cs" />
+     <Compile Include="Assets\Prefabs\FPSPlayer\Player.cs" />
+     <Compile Include="Assets\Prefabs\FPSPlayer\SimpleSmoothMouseLook.cs" />
      <Compile Include="Assets\Scripts\AdjustedFollow.cs" />
      <Compile Include="Assets\Scripts\Burnable.cs" />
      <Compile Include="Assets\Scripts\Constellation.cs" />
