@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 33582980197999870}
   - component: {fileID: 135518157777382562}
   - component: {fileID: 23067649119249298}
-  - component: {fileID: 114338124292500708}
   - component: {fileID: 120631525013739774}
   m_Layer: 0
   m_Name: StarB
@@ -38,7 +37,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704409452480434}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.019, y: 0.283, z: 0.0034759045}
+  m_LocalPosition: {x: 0.118, y: -0.168, z: 2.212}
   m_LocalScale: {x: 0.039729998, y: 0.039729998, z: 0.039729998}
   m_Children: []
   m_Father: {fileID: 0}
@@ -58,7 +57,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: d7b90495f0f98874dbdbafc334023f9a, type: 2}
+  - {fileID: 2100000, guid: f8ce3b3f786c145e397f3c275f706895, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,21 +84,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1704409452480434}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &114338124292500708
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1704409452480434}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c4f33a0940ce6164f945d21f7fe8ca84, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pos1: {fileID: 4328463463391814}
-  pos2: {fileID: 0}
-  width: 1
-  material: {fileID: 2100000, guid: ad8b98a9d482541d2af61386b7ac9e89, type: 2}
 --- !u!120 &120631525013739774
 LineRenderer:
   m_ObjectHideFlags: 1
@@ -135,7 +119,7 @@ LineRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Positions:
-  - {x: -2.2903478, y: 29.169933, z: 39.703506}
+  - {x: 0.118, y: -0.168, z: 2.212}
   - {x: 13.340904, y: 18.59584, z: 39.703506}
   m_Parameters:
     serializedVersion: 2
