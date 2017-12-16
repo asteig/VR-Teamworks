@@ -74,6 +74,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4465341536542726}
+  - component: {fileID: 114980324088136072}
   m_Layer: 0
   m_Name: Aquarius
   m_TagString: Untagged
@@ -725,7 +726,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1103248583493304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.1613302}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4317153756761602}
@@ -2199,6 +2200,17 @@ MonoBehaviour:
   pos2: {fileID: 4010371755784342}
   width: 0.005
   material: {fileID: 2100000, guid: ad8b98a9d482541d2af61386b7ac9e89, type: 2}
+--- !u!114 &114980324088136072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103248583493304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880d2c14ede974e6eaf225218037933a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!120 &120064266650466256
 LineRenderer:
   m_ObjectHideFlags: 1
