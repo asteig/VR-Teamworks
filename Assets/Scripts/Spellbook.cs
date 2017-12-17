@@ -13,7 +13,7 @@ public class Spellbook : RecieveInvoke {
 	public SpriteRenderer rightSprite;
 	public string spellLinks;
 	public TextMesh debugText;
-
+	public bool held;
 	void Start () {
 		myAnim = GetComponent<Animator>();
 	}
@@ -21,7 +21,7 @@ public class Spellbook : RecieveInvoke {
 	// Update is called once per frame
 	void Update () {
 		debugText.text = spellLinks;
-		if (Vector3.Distance(transform.position, anchor.position) > minAnchorDistance)
+		if (Vector3.Distance(transform.position, anchor.position) > minAnchorDistance && held)
 			SmoothMoveToAnchor();
 
 	}

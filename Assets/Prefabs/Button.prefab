@@ -60,10 +60,9 @@ GameObject:
   - component: {fileID: 23475141256679984}
   - component: {fileID: 114948774495750916}
   - component: {fileID: 54567190101561570}
-  - component: {fileID: 114629989163163052}
   m_Layer: 0
   m_Name: Movable
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -209,8 +208,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1651039249128306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.45000002, y: 0.9838, z: 0.25583392}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
+  m_LocalPosition: {x: -16.974, y: 1.619, z: 2.066}
+  m_LocalScale: {x: 0.8383074, y: 0.37624386, z: 0.8383074}
   m_Children:
   - {fileID: 4414371583959502}
   - {fileID: 4518878008608850}
@@ -494,7 +493,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!65 &65340935087488934
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -567,19 +566,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114629989163163052
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1233323757803078}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94a64afb3c4526f4d8238cf7d2c9778b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Button: {fileID: 114948774495750916}
-  ToCopy: {fileID: 0}
 --- !u!114 &114948774495750916
 MonoBehaviour:
   m_ObjectHideFlags: 1

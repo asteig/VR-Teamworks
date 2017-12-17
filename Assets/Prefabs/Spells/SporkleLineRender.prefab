@@ -54,6 +54,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pos1: {fileID: 0}
   pos2: {fileID: 0}
+  width: 0.01
+  material: {fileID: 2100000, guid: f83f7479a65659f47be781d60700a7d8, type: 2}
 --- !u!120 &120939773801537794
 LineRenderer:
   m_ObjectHideFlags: 1
