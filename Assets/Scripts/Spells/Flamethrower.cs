@@ -19,10 +19,10 @@ public class Flamethrower : NetworkBehaviour {
 		else {
 			myFire.Stop();
 		}
-		if (GetComponent<ParticleSystem> ().isPlaying) {
+		if (myFire.isPlaying) {
 			myLight.SetActive(true);
 		}
-		if (!GetComponent<ParticleSystem> ().isPlaying) {
+		if (!myFire.isPlaying) {
 			myLight.SetActive(false);
 		}
 

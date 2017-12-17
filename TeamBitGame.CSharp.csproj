@@ -291,6 +291,7 @@
     <Compile Include="Assets\Scripts\LineRender.cs" />
     <Compile Include="Assets\Scripts\LookAtCamera.cs" />
     <Compile Include="Assets\Scripts\MCP.cs" />
+    <Compile Include="Assets\Scripts\Plinth.cs" />
     <Compile Include="Assets\Scripts\RecieveInvoke.cs" />
     <Compile Include="Assets\Scripts\RotatePuzzle.cs" />
     <Compile Include="Assets\Scripts\SmoothMagicFollow.cs" />
