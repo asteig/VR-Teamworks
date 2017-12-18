@@ -7,19 +7,21 @@ public class Constellation : MonoBehaviour {
 	public GameObject StarA;
 	public GameObject StarB;
 
-	private GameObject star;
-
+	private Transform[] childList;
 	// Use this for initialization
 	void Start () {
+
 		Debug.Log("I am a constellation and I will do constellationy things.");
 
-		foreach (Transform child in transform) {
-			//if material is default {}
-			child.GetComponent<MeshRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0f);
-			star = Instantiate(StarA, child.transform.position+new Vector3(0,0,0),Quaternion.identity) as GameObject;
-			star.SetActive(true);
-			Debug.Log (star);
+		childList = transform.GetComponentsInChildren<Transform>();
 
+		for (int i = 1; i < childList.Length; i++) {
+
+			//if material is default {}
+			if (childList[i].GetComponent<MeshRenderer>() != null) {
+				childList[i].GetComponent<MeshRenderer>().enabled = false;
+				GameObject star = Instantiate(StarA, childList[i].transform.position, transform.rotation, transform);
+			}
 		}
 			
 	}
