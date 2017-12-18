@@ -20,7 +20,9 @@ public class Constellation : MonoBehaviour {
 			//if material is default {}
 			if (childList[i].GetComponent<MeshRenderer>() != null) {
 				childList[i].GetComponent<MeshRenderer>().enabled = false;
-				GameObject star = Instantiate(StarA, childList[i].transform.position, transform.rotation, transform);
+				GameObject star = Instantiate(StarA, childList[i].transform.position, transform.rotation, tra);
+				star.transform.parent = transform;
+				star.transform.position = childList[i].transform.position;
 			}
 		}
 			
