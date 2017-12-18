@@ -219,6 +219,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4092055141461430}
+  - component: {fileID: 114860781418105174}
   m_Layer: 0
   m_Name: Gemini
   m_TagString: Untagged
@@ -357,7 +358,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1536962191446138}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.702, y: 0.10819638, z: 2.21}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4358094461891924}
@@ -1312,6 +1313,19 @@ MonoBehaviour:
   pos2: {fileID: 4053392778906224}
   width: 0.005
   material: {fileID: 2100000, guid: ad8b98a9d482541d2af61386b7ac9e89, type: 2}
+--- !u!114 &114860781418105174
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1536962191446138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880d2c14ede974e6eaf225218037933a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StarA: {fileID: 1426299319111476, guid: 277aaa455110e4a8ca4166f02e47e24c, type: 2}
+  StarB: {fileID: 0}
 --- !u!114 &114910650466793756
 MonoBehaviour:
   m_ObjectHideFlags: 1
