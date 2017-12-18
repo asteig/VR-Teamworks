@@ -59,6 +59,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4237216601265420}
+  - component: {fileID: 114945660711274906}
   m_Layer: 0
   m_Name: Taurus
   m_TagString: Untagged
@@ -270,7 +271,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1320183336349624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.657, y: 0.10819638, z: 2.21}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4480690834071808}
@@ -922,6 +923,19 @@ MonoBehaviour:
   pos2: {fileID: 4207028268662486}
   width: 0.005
   material: {fileID: 2100000, guid: ad8b98a9d482541d2af61386b7ac9e89, type: 2}
+--- !u!114 &114945660711274906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1320183336349624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880d2c14ede974e6eaf225218037933a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StarA: {fileID: 1426299319111476, guid: 277aaa455110e4a8ca4166f02e47e24c, type: 2}
+  StarB: {fileID: 0}
 --- !u!120 &120294576595927118
 LineRenderer:
   m_ObjectHideFlags: 1
