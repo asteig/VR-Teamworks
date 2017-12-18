@@ -2,10 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class spin : MonoBehaviour {
-	public float speedX;
-	public float speedY;
-	public float speedZ;
+public class KillBox : MonoBehaviour {
+
 	// Use this for initialization
 	void Start () {
 		
@@ -13,6 +11,12 @@ public class spin : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.Rotate(new Vector3(speedX, speedY, speedZ));
+		
+	}
+
+	void OnTriggerEnter(Collider other) {
+		if(other.gameObject.tag == "Player") {
+			UnityEngine.SceneManagement.SceneManager.LoadScene(0);
+		}
 	}
 }

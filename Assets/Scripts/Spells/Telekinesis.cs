@@ -11,6 +11,8 @@ public class Telekinesis : MonoBehaviour {
 	private GameObject grabPoint;
 	public float followSpeed = 1f;
 	public Material[] mats;
+	[HideInInspector]
+	public Vector3 targetPoint;
 	// Use this for initialization
 	void Start () {
 		targetLine = GetComponent<LineRenderer>();
@@ -27,6 +29,7 @@ public class Telekinesis : MonoBehaviour {
 			target.velocity = ((grabPoint.transform.position - target.transform.position) * (Vector3.Distance(target.transform.position, grabPoint.transform.position) + 0.1f)) * followSpeed;
 			targetLine.SetPosition(0, transform.position);
 			targetLine.SetPosition(1, target.transform.position);
+			targetPoint = target.transform.position;
 			target.transform.rotation = transform.rotation;
 		}
 
@@ -55,6 +58,9 @@ public class Telekinesis : MonoBehaviour {
 				targetLine.SetPosition(0, transform.position);
 				targetLine.SetPosition(1, hit.point);
 				targetLine.material = mats[1];
+			}
+			if(target == null) {
+				targetPoint = hit.point;
 			}
 		}
 		else {
