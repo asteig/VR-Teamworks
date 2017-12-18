@@ -13,6 +13,6 @@ public class WoodGate : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		myAnim.SetBool("Open", button.ButtonIsPushed);
-		print(button.ButtonIsPushed);
+		
 	}
 }
