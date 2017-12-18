@@ -14,7 +14,7 @@ public class Plinth : MonoBehaviour {
 		
 	}
 	void OnTriggerEnter(Collider other) {
-		if(other.gameObject.tag == "Finger") {
+		if(other.gameObject.tag == "PlayerHand") {
 			spell.held = true;
 		}
 	}
