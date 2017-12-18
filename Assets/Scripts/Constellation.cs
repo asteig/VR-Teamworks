@@ -11,15 +11,12 @@ public class Constellation : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("I am a constellation and I will do constellationy things.");
 
 		foreach (Transform child in transform) {
-			//if material is default {}
 			child.GetComponent<MeshRenderer>().material.color = new Color(1.0f, 1.0f, 1.0f, 0f);
 			star = Instantiate(StarA, child.transform.position+new Vector3(0,0,0),Quaternion.identity) as GameObject;
 			star.SetActive(true);
-			Debug.Log (star);
-
+			star.transform.parent = gameObject.transform;
 		}
 			
 	}
@@ -30,7 +27,7 @@ public class Constellation : MonoBehaviour {
 		
 	}
 
-	void Dazzle (Color color) {
+	void Spark (Color color) {
 		
 	}
 }
